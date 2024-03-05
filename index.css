@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container-div {
+  display: grid;
+  grid-template: 100px 1fr / 1fr 250px;
+  margin: 0px;
+}
+.name-pr {
+  font-size: 25px;
+  display: block;
+}
+.civil {
+  display: block;
+  font-size: 20px;
+}
+.head-div {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: rgb(116,213,223);
+}
+.profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.side-div {
+  padding: 10px 20px;
+  background-color: rgb(248,234,223);
+}
+.content-div {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(212,234,223);
+}
+.intro-div {
+ 
+}
+.head2 {
+  text-decoration: underline;
+}
+.exp-head-div {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.exp-div {
+ display: grid;
+ grid-template-columns: 120px 1fr;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding: 0px 2px;
+}
+#exp {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  line-height: 20px;
+}
+#exp2 {
+  line-height: 15px;
+  
+} 
+.date-div {
+  width: 120px;
+}
+h3 {
+  margin-bottom: 0;
+}
+.exp-head {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.exp-items {
+  margin-top: 0px;
+}
+.firm-name {
+  margin-top: 0px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+.project-name {
+  margin-left: 20px;
+  margin: 0px 2px;
+  padding: 0px 10px;
+}
+.info-main-head {
+  font-size: 24px;
+}
+.info-headItems-div {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 2px;
+  margin: 0px 2px;
+}
+.info-items {
+  padding-top: 0px; 
+  margin: 0px;
+}
+.info-icon {
+  width: 20px;
+  margin-right: 5px;
+}
+.info-head {
+  display: inline;
+  font-size: 15px;
+  margin-left: 3px;
+}
+.icon-info-div {
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+  padding-bottom: 0px;
+}
+.side-div p {
+  margin-top: 0px;
+}
+ul {
+  margin-top: 0px;
+}
+li {
+  padding: 5px;
+  font-size: 14px;
+}
