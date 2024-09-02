@@ -72,6 +72,9 @@ body {
 .date-div {
   width: 120px;
 }
+.date {
+  display: inline;
+}
 h3 {
   margin-bottom: 0;
 }
