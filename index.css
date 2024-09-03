@@ -71,11 +71,11 @@ body {
 } 
 .date-div {
   width: 150px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 .date {
   display: inline;
-  font-size:12px;
+  font-size:14px;
 }
 h3 {
   margin-bottom: 0;
